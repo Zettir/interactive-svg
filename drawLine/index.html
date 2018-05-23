@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<style>
+    #circle{
+        width:50%;
+        
+    }
+    svg{
+        background: #999;
+        transform: rotate(-90deg);
+        border-radius: 50%;
+    }
+    #c1{
+        fill:none;
+        stroke: #f00;
+        stroke-width: 100;
+        stroke-dasharray: 10 314;
+    }
+    #c2{
+        fill:none;
+        stroke: #ca1;
+        stroke-width: 100;
+        stroke-dasharray: 50 314;
+        stroke-dashoffset: -10;
+    }
+    #c3{
+        fill:none;
+        stroke: rgb(0, 255, 136);
+        stroke-width: 100;
+        stroke-dasharray: 43 314;
+        stroke-dashoffset: -60;
+    }
+</style>
+
+</head>
+<body>
+    <div id="circle">
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <circle id="c1" cx="50" cy="50" r="50"/>
+                <circle id="c2" cx="50" cy="50" r="50"/>
+                <circle id="c3" cx="50" cy="50" r="50"/>
+              </svg>
+    </div>
+</body>
+</html>
